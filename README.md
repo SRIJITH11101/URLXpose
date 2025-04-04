@@ -66,6 +66,3 @@ Make sure to get your API key from [Google Safe Browsing API](https://developers
 - Google Safe Browsing API
 - StackOverflow and Flutter Dev Community ❤️
 
-## 📃 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
