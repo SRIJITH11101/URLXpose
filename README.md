@@ -10,9 +10,6 @@ URLXpose is a Flutter-based mobile application that helps users expand and check
 - 📱 Mobile-responsive, smooth UI
 - ✅ Works on Android (tested with release APK)
 
-## 📸 Screenshots
-
-*(Add screenshots of your app here)*
 
 ## 🧰 Tech Stack
 
