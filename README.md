@@ -27,40 +27,45 @@ URLXpose is a Flutter-based mobile application that helps users expand and check
    ```bash
    git clone https://github.com/your-username/urlxpose.git
    cd urlxpose
-Install dependencies
+   ```
 
-bash
-Copy
-Edit
-flutter pub get
-Run the app
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
 
-bash
-Copy
-Edit
-flutter run
-📱 APK Build
+3. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+## 📱 APK Build
+
 To build the release APK:
 
-bash
-Copy
-Edit
+```bash
 flutter build apk --release
-The APK will be generated under: build/app/outputs/flutter-apk/app-release.apk
+```
 
-🔑 Permissions
-The app requires the following permission in AndroidManifest.xml:
+The APK will be generated under: `build/app/outputs/flutter-apk/app-release.apk`
 
-xml
-Copy
-Edit
+## 🔑 Permissions
+
+The app requires the following permission in `AndroidManifest.xml`:
+```xml
 <uses-permission android:name="android.permission.INTERNET"/>
-🛡️ Google Safe Browsing API
-Make sure to get your API key from Google Safe Browsing API and add it to your project in the proper place.
+```
 
-🙌 Acknowledgements
-Flutter & Dart
+## 🛡️ Google Safe Browsing API
 
-Google Safe Browsing API
+Make sure to get your API key from [Google Safe Browsing API](https://developers.google.com/safe-browsing/v4) and add it to your project in the proper place.
 
-StackOverflow and Flutter Dev Community ❤️
+## 🙌 Acknowledgements
+
+- Flutter & Dart
+- Google Safe Browsing API
+- StackOverflow and Flutter Dev Community ❤️
+
+## 📃 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
